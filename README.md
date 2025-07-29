@@ -134,4 +134,4 @@ Railway avtomatik ravishda loyihani deploy qiladi. Deploy tugagandan so'ng, bot 
 
 - TRUE = Tayyor
 - FALSE = Tayyorlanmoqda
-- Bo'sh yuborilgan sana = "tez fursatda tayyor bo'ladi" 
+- Bo'sh yuborilgan sana = "tez fursatda tayyor bo'ladi"
