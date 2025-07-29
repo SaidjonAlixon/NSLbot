@@ -311,6 +311,7 @@ def main():
         # Lokal da polling ishlatish
         application.run_polling(allowed_updates=Update.ALL_TYPES)
 
+# Flask app ni ishga tushirish
 if __name__ == '__main__':
     # Botni ishga tushirish
     create_app()
