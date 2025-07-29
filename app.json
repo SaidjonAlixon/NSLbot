@@ -1,0 +1,33 @@
+{
+  "name": "NEMAT LASER SERVICE Bot",
+  "description": "Telegram bot for NEMAT LASER SERVICE company",
+  "repository": "https://github.com/yourusername/nemat-laser-bot",
+  "keywords": ["python", "telegram", "bot", "railway"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "GOOGLE_SHEETS_ID": {
+      "description": "Google Sheets ID",
+      "required": true
+    },
+    "GOOGLE_CREDENTIALS": {
+      "description": "Google Service Account JSON credentials",
+      "required": true
+    },
+    "RAILWAY_ENVIRONMENT": {
+      "description": "Railway environment flag",
+      "value": "true"
+    },
+    "RAILWAY_STATIC_URL": {
+      "description": "Railway static URL",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+} 
